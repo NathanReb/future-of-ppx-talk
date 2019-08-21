@@ -68,5 +68,28 @@ Issue for both PPX authors and users...
 
 #### Combining several PPXes
 
+May involve a lot of AST migrations
+
 ![](images/omp-driver-composing.svg)
 
+---
+
+## ocaml-migrate-parsetree
+
+#### Combining several PPXes
+
+Backward migrations can fail
+
+![](images/omp-driver-composing-migration-failure.svg)
+
+---
+
+## ocaml-migrate-parsetree
+
+#### Combining several PPXes
+
+The order is still an issue
+
+![](images/omp-driver-composing-order.svg)
+
+---
