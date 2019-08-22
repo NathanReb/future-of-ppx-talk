@@ -156,3 +156,98 @@ Error: Uninterpreted attribute
 ## ppxlib
 
 #### Limitations
+
+# Abstraction!
+
+---
+
+# API
+
+```ocaml
+module Ast_408 : sig
+  type expression
+  type case
+  
+  val pexp_match : expression -> case list -> expression
+  ...
+  
+  type expression_one_level =
+    | Pexp_match of expression * case list
+    | ...
+    
+  val deconstruct_expression
+    : expression -> expression_one_level
+end
+```
+
+---
+
+
+```ocaml
+let%expect "foo" =
+  let+ x = f 42 in
+  ...
+```
+
+desugared:
+
+```ocaml
+[%expect
+  let "foo" =
+    let+ x = f 42 in
+    ...
+]
+```
+
+- ppx_expect uses `Ast_407`
+- `let+` is a 4.08 feature
+
+---
+
+# Type equalities
+
+```ocaml
+module Ast_408 : sig
+  type expression = Ast_407.expression
+  type case = Ast_407.case
+end
+```
+
+Good interop between ppx libraries
+
+
+---
+
+# Fully dynamic AST
+
+```ocaml
+x + y
+```
+
+#### Static representation
+
+```ocaml
+Add (Indent "x", Ident "y")
+```
+
+#### Dynamic representation
+
+```ocaml
+Term ("Add", [Term ("Ident", [String "x"]);
+              Term ("Ident", [String "y"])
+```
+
+---
+
+# Changelog
+
+```ocaml
+val changelog : (ocaml_version * (ast -> ast) list) list
+```
+
+---
+
+# Astlib
+
+- Give a dynamic AST
+- 
