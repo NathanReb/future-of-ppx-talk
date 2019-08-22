@@ -244,15 +244,22 @@ Term ("Add", [Term ("Ident", [String "x"]);
 
 ---
 
-# Changelog
+# Migration functions (Changelog)
 
-```ocaml
-val changelog : (ocaml_version * (ast -> ast) list) list
-```
+---
+
+# New flow
+
+![60%](images/new-flow.svg)
 
 ---
 
 # Astlib
 
-- Give a dynamic AST
-- 
+- dynamic AST
+- changelog
+- marshal/unmarshal
+
+---
+
+# The upgrading story

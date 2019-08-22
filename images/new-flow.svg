@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="51cm" height="32cm" viewBox="119 59 1007 622" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <ellipse style="fill: #caffc1; fill-opacity: 0; stroke-opacity: 0; stroke-width: 2; stroke: #000000" cx="590" cy="370" rx="290" ry="310"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.62" y="361.4">
+      <tspan x="542.62" y="361.4"></tspan>
+    </text>
+    <g>
+      <polygon style="fill: #e7d7b3; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="163.676,220 310.073,220 266.396,340 120,340 "/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="215.036" y="287.233">
+        <tspan x="215.036" y="287.233">foo.ml</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="288.234" y1="280" x2="350.264" y2="280"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="357.764,280 347.764,285 350.264,280 347.764,275 "/>
+    </g>
+    <g>
+      <rect style="fill: #dbe9fb; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="220" width="175.6" height="120" rx="16" ry="16"/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="447.8" y="272.417">
+        <tspan x="447.8" y="272.417">Current</tspan>
+        <tspan x="447.8" y="302.05">AST</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="800.996" y1="311.131" x2="872.058" y2="335.442"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="879.154,337.87 868.074,339.364 872.058,335.442 871.311,329.902 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="879" y1="430.75" x2="831.433" y2="450.328"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="824.498,453.182 831.842,444.752 831.433,450.328 835.648,454 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="536.888" y="160">
+      <tspan x="536.888" y="160"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #dbe9fb; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="620" y="220" width="180" height="120" rx="16" ry="16"/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="710" y="272.417">
+        <tspan x="710" y="272.417">Dynamic</tspan>
+        <tspan x="710" y="302.05">AST</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="710" y="280">
+      <tspan x="710" y="280"></tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="536.603" y1="280" x2="609.26" y2="280"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="616.76,280 606.76,285 609.26,280 606.76,275 "/>
+    </g>
+    <g>
+      <rect style="fill: #dbe9fb; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="880" y="320" width="244.6" height="120" rx="16" ry="16"/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1002.3" y="372.417">
+        <tspan x="1002.3" y="372.417">Rewriting</tspan>
+        <tspan x="1002.3" y="402.05">engine</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #dbe9fb; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="600" y="440" width="221.5" height="120" rx="16" ry="16"/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="710.75" y="477.6">
+        <tspan x="710.75" y="477.6">Dynamic</tspan>
+        <tspan x="710.75" y="507.233">AST</tspan>
+        <tspan x="710.75" y="536.867">(multi-version)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #dbe9fb; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="440" width="175.6" height="120" rx="16" ry="16"/>
+      <text font-size="23.7067" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="447.8" y="492.417">
+        <tspan x="447.8" y="492.417">Current</tspan>
+        <tspan x="447.8" y="522.05">AST</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="599.016" y1="500" x2="546.336" y2="500"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="538.836,500 548.836,495 546.336,500 548.836,505 "/>
+    </g>
+  </g>
+</svg>
