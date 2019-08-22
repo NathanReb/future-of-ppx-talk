@@ -11,6 +11,10 @@
 
 ---
 
+## ![60%](images/tarides.png)
+
+---
+
 ## What is PPX?
 
 ---
@@ -152,6 +156,3 @@ Error: Uninterpreted attribute
 ## ppxlib
 
 #### Limitations
-
-
-
