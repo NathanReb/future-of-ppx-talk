@@ -12,6 +12,7 @@
 ---
 
 ## ![60%](images/tarides.png)
+## ![600%](images/jane-street.svg)
 
 ---
 
