@@ -8,6 +8,7 @@
 
 ###### Nathan Rebours, Tarides
 ###### Jeremie Dimino, Jane Street
+###### Carl Eastlund, Jane Street
 
 ---
 
@@ -147,9 +148,10 @@ type t =
 ```
 
 ```
-Error: Uninterpreted attribute
 ; b : string [@defualt "b"]
              ^^^^^^^^^^^^^^
+Error: Uninterpreted attribute "defualt".
+Hint: Did you mean "default"?
 ```
 
 ---
@@ -157,6 +159,8 @@ Error: Uninterpreted attribute
 ## ppxlib
 
 #### Limitations
+
+---
 
 # Abstraction!
 
