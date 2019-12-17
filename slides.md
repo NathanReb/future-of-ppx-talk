@@ -176,12 +176,12 @@ module Ast_408 : sig
   val pexp_match : expression -> case list -> expression
   ...
   
-  type expression_one_level =
+  type concrete_expression =
     | Pexp_match of expression * case list
     | ...
     
   val deconstruct_expression
-    : expression -> expression_one_level
+    : expression -> concrete_expression
 end
 ```
 
@@ -258,7 +258,13 @@ Term ("Add", [Term ("Ident", [String "x"]);
 
 - dynamic AST
 - changelog
-- marshal/unmarshal
+- conversion to and from current Parsetree types
+
+---
+
+# Astlib
+
+![](images/astlib-ppx-architecture.svg)
 
 ---
 
