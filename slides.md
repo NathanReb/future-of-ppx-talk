@@ -269,3 +269,9 @@ Term ("Add", [Term ("Ident", [String "x"]);
 ---
 
 # The upgrading story
+
+---
+
+# Thanks!
+
+##### https://github.com/NathanReb/future-of-ppx-talk
